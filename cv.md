@@ -47,7 +47,7 @@ I want to change my field of activity. I am interested in studying front-end dev
 
 ## Experience
 
-I don't have experience yet.
+I don't have commercial experience yet.
 
 ---
 
