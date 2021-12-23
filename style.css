@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+body {
+  background-color: #a3b68a;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: normal;
+  font-family: "Lato", sans-serif;
+}
+
+.my-photo {
+  width: 170px;
+  border-radius: 20px;
+}
+
+hr {
+  color: #ffffff;
+  height: 2px;
+  background-color: #ffffff;
+  border: none;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
