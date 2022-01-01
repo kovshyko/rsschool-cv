@@ -5,36 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="container">
-      <img
-        src="https://scontent.fiev8-2.fna.fbcdn.net/v/t39.30808-6/249526904_629880554702001_464218798414242737_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=WQbv6Qp0KIwAX8MZ4-s&_nc_ht=scontent.fiev8-2.fna&oh=00_AT-P5mPa_xXyFw3j7xdnDdvTS5N2-0ac-C5dHJdqjvMnMA&oe=61C48817"
-        alt="My photo"
-        class="my-photo"
-      />
+    <header>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#Contacts" class="nav-link">Contacts</a></li>
+          <li><a href="#About_me" class="nav-link">About me</a></li>
+          <li><a href="#Skills" class="nav-link">Skills</a></li>
+          <li><a href="#Code_example" class="nav-link">Code example</a></li>
+          <li><a href="#Experience" class="nav-link">Experience</a></li>
+          <li><a href="#Education" class="nav-link">Education</a></li>
+          <li><a href="#English_level" class="nav-link">English level</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img src="./assets/img/image.jpg" alt="my photo" class="my-photo" />
       <h1>Oleksandr Kovshyk</h1>
       <h3>Junior Front-end Developer</h3>
 
       <hr />
 
-      <h2>Contacts</h2>
+      <h2 id="Contacts">Contacts</h2>
       <p>
-        <strong>Location:</strong> Kyiv, Ukraine
+        <img
+          src="./assets/svg/earth.svg"
+          alt="location icon"
+          width="16"
+        /><strong> Location:</strong>
+        <a href="https://goo.gl/maps/6JbNgfDKkaML3oHr7" target="_blank"
+          >Kyiv, Ukraine</a
+        >
         <br />
-        <strong>Phone:</strong> +380980071446
+        <img
+          src="./assets/svg/accept-call.svg"
+          alt="phone icon"
+          width="16"
+        /><strong> Phone:</strong>
+        <a href="tel:+380980071446">+380980071446</a>
         <br />
-        <strong>E-mail:</strong> oleksandrkovshyk95@gmail.com
+        <img src="./assets/svg/gmail.svg" alt="email icon" width="16" /><strong>
+          Email:</strong
+        >
+        <a href="mailto:oleksandrkovshyk95@gmail.com"
+          >oleksandrkovshyk95@gmail.com</a
+        >
         <br />
-        <strong>Telegram:</strong> @kovshyk_o
+        <img
+          src="./assets/svg/telegram.svg"
+          alt="telegram icon"
+          width="16"
+        /><strong> Telegram:</strong>
+        <a href="https://t.me/kovshyk_o" target="_blank">@kovshyk_o</a>
         <br />
-        <strong>Discord:</strong> Oleksandr Kovshyk (@kovshyko)
+        <img
+          src="./assets/svg/discord.svg"
+          alt="discord icon"
+          width="16"
+        /><strong> Discord:</strong>
+        Oleksandr Kovshyk (@kovshyko)
       </p>
 
       <hr />
 
-      <h2>About me</h2>
+      <h2 id="About_me">About me</h2>
       <p>
         I want to change my field of activity. I am interested in studying
         front-end development because I can see the results of my work.
@@ -42,7 +78,7 @@
 
       <hr />
 
-      <h2>Skills</h2>
+      <h2 id="Skills">Skills</h2>
       <ul>
         <li>HTML5</li>
         <li>CSS3</li>
@@ -52,43 +88,67 @@
 
       <hr />
 
-      <h2>Code example</h2>
-      <code>
-        <pre>
+      <h2 id="Code_example">Code example</h2>
+      <pre>
+        <code>
 .violet {
     color: #9400d3;
-}</pre
-        >
-      </code>
+}</code>
+      </pre>
 
       <hr />
 
-      <h2>Experience</h2>
-      <p>I don't have commercial experience yet.</p>
+      <h2 id="Experience">Experience</h2>
+      <p>I don't have experience yet.</p>
 
       <hr />
 
-      <h2>Education</h2>
+      <h2 id="Education">Education</h2>
       <ul>
+        <li>
+          Code Basics (basics of programming):
+          <ul>
+            <li>
+              <a href="https://code-basics.com/languages/html" target="_blank"
+                >HTML</a
+              >
+            </li>
+            <li>
+              <a href="https://code-basics.com/languages/css" target="_blank"
+                >CSS</a
+              >
+            </li>
+          </ul>
+        </li>
         <li>
           <em>BSc in Mechanical Engineering</em> -
           <strong>
             Igor Sikorsky Kyiv Polytechnic Institute (2013 - 2017)</strong
           >
         </li>
-        <li>Code Basics (basics of programming):</li>
-        <ul>
-          <li><a href="https://code-basics.com/languages/html">HTML</a></li>
-          <li><a href="https://code-basics.com/languages/css">CSS</a></li>
-        </ul>
       </ul>
 
       <hr />
 
-      <h2>English level</h2>
-      <p><strong>A2</strong></p>
+      <h2 id="English_level">English level</h2>
+      <p><strong>A2 - Elementary</strong></p>
 
       <hr />
-    </div>
+    </main>
+    <footer class="footer">
+      <p>
+        <strong>GitHub:</strong>
+        <a href="https://github.com/kovshyko" target="_blank">kovshyko</a>
+      </p>
+      <p>
+        <a href="https://rs.school/js-stage0/" target="_blank"
+          >Подготовительный курс «JavaScript/Front-end. Stage 0»</a
+        >
+        <img src="./assets/svg/rs_school_js.svg" alt="rss logo" width="50" />
+      </p>
+      <p>
+        <strong>2021</strong>
+      </p>
+    </footer>
   </body>
 </html>
